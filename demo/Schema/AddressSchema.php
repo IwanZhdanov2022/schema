@@ -6,9 +6,9 @@ use Iwan07\Schema\base\AbstractObjectSchema;
 use Iwan07\Schema\scalar\StringSchema;
 
 /**
- * @var string  $country    Страна
- * @var string  $city       Город
- * @var array   $coords     Координаты
+ * @property string  $country    Страна
+ * @property string  $city       Город
+ * @property array   $coords     Координаты
  */
 class AddressSchema extends AbstractObjectSchema
 {

@@ -8,9 +8,9 @@ use Iwan07\Schema\scalar\IntSchema;
 use Iwan07\Schema\scalar\StringSchema;
 
 /**
- * @var string      $station    Название станции
- * @var ColorEnum   $color      Цвет ветки
- * @var int         $time       Время в пути до станции
+ * @property string      $station    Название станции
+ * @property ColorEnum   $color      Цвет ветки
+ * @property int         $time       Время в пути до станции
  */
 class MetroSchema extends AbstractObjectSchema
 {

@@ -8,11 +8,11 @@ use Iwan07\Schema\scalar\IntSchema;
 use Iwan07\Schema\scalar\StringSchema;
 
 /**
- * @var int     $id         Id
- * @var string  $name       ФИО
- * @var         $address    Адрес
- * @var         $metro      Станция метро
- * @var         $checked    Проверено
+ * @property int     $id         Id
+ * @property string  $name       ФИО
+ * @property         $address    Адрес
+ * @property         $metro      Станция метро
+ * @property         $checked    Проверено
  */
 class ItemSchema extends AbstractObjectSchema
 {

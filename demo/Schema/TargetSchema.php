@@ -6,9 +6,9 @@ use Iwan07\Schema\base\AbstractObjectSchema;
 use Iwan07\Schema\scalar\IntSchema;
 
 /**
- * @var array   $items Список пользователей
- * @var int     $total Всего
- * @var int     $pages Всего страниц
+ * @property array   $items Список пользователей
+ * @property int     $total Всего
+ * @property int     $pages Всего страниц
  */
 class TargetSchema extends AbstractObjectSchema
 {
