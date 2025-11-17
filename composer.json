@@ -1,0 +1,23 @@
+{
+	"name": "iwan07/schema",
+	"description": "Типизация данных для PHP",
+	"authors": [
+		{
+			"name": "Иван Жданов",
+			"email": "iwanzhdanov2022@yandex.ru"
+		}
+	],
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Iwan07\\Schema\\demo\\": "demo/",
+			"Iwan07\\Schema\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^8.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^12.2"
+	}
+}
